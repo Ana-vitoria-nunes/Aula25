@@ -1,0 +1,21 @@
+
+
+Crie uma classe pública denominada Funcionário. Esta classe deve possuir
+os atributos nome, dataAdmissao e salario. Todos os atributos devem ser
+privados.
+- Crie os getters e setters necessários da sua classe Funcionário.
+- Crie uma classe pública denominada Main, que contém um método main.
+Nesse método crie três instâncias da classe Funcionário,fornecendo os
+atributos através dos métodos de acesso (getters e setters).
+- Adicione um atributo estático na classe Funcionário de tipo int que se
+chama identificador. Esse identificador deve ser um valor único para
+cada instância do tipo Funcionário. O primeiro funcionário
+instanciado deve ter o identificador 1, o segundo 2 e assim por diante. Isto
+deve ser feito automaticamente na classe Funcionário, com uso do
+construtor.
+- Crie os getters e os setters necessários para os identificadores.
+- Adicione uma validação no método setSalario de forma que não seja
+
+permitido adicionar um salário inferior a R$ 700,00.
+- Adicione uma validação no método setDataAdmissao, de forma que não
+seja permitido adicionar uma data no futuro.

@@ -1,0 +1,45 @@
+1. Dada a classe abaixo:
+public class Azul{
+static int cor;
+public static String NOME = "Azul";
+public Azul(int tonalidade) { ... }
+public int getTonalidade() {return tonalidade;}
+public void setTonalidade(int tonalidade) { ... }
+public void tornarMaisEscuro() { ... }
+void calcularTonalidade() { ... }
+private void TornarTonalidadeMaisEscura(int valor) { ... }
+}
+
+Responda:
+a. Quais são as variáveis de classe?
+    R: int cor;
+       String NOME;
+       int tonalidade;
+       int valor;
+
+b. Quais são os construtores?
+    R:public Azul(int tonalidade) { ... }
+
+c. Quais métodos fazem parte da interface dessa classe?
+
+    R:public int getTonalidade() {return tonalidade;}
+      public void setTonalidade(int tonalidade) { ... }
+      public void tornarMaisEscuro() { ... }
+      private void TornarTonalidadeMaisEscura(int valor) { ... }
+
+
+d. Sem mudar o código que está escrito. Implemente o método setTonalidade e
+a variável que ele necessita.
+
+    R:private int tonalidade;
+
+e. Sem mudar o código que está escrito. Implemente o construtor.
+    R:this.tonalidade=tonalida;
+
+
+f. O código abaixo roda? Justifique.
+var color = new Blue();
+    R: Não roda pois não tem ligação com a class Azul
+    rodaria com Azul color = new Azul();
+
+g. Crie uma Main e implemente uma lógica a classe Azul.
