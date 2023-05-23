@@ -27,11 +27,11 @@ public class Main1 {
                 System.out.println("Opção inválida!!");
             }
         }
-        System.out.println(Azul1.NOME + "-" + Azul1.getNome() + " tem a tonalidade " + azul1.getTonalidade());
+        System.out.println(Azul1.NOME + "-" + Azul1.cor + " tem a tonalidade " + azul1.getTonalidade());
 
 
         Azul1.cor+=1;
-        System.out.println(Azul1.NOME1 +"-"+ Azul1.getNome() + " tem a tonalidade "+tonalidade1);
+        System.out.println(Azul1.NOME +"-"+Azul1.cor + " tem a tonalidade "+tonalidade1);
 
     }
 }

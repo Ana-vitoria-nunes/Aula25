@@ -41,7 +41,7 @@ public class Funcionario {
 
     public void setSalario(double salario) {
         if (salario<700){
-            throw new RuntimeException("Não é permitido colocar salário menor que R$700");
+           throw new RuntimeException("Não é permitido colocar salário menor que R$700");
         }
         this.salario = salario;
     }

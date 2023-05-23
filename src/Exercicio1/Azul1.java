@@ -4,7 +4,7 @@ public class Azul1 {
     static int cor=1;
     public int tonalidade;
     public static String NOME = "Azul";
-    public static String NOME1 = "Azul";
+
 
     public Azul1() {
         this.tonalidade=1;

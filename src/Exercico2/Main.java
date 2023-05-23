@@ -28,7 +28,7 @@ public class Main {
         System.out.println("---------------------------------------");
 
         funcionario3.setNome("Aline");
-        funcionario3.setSalario(3500);
+        funcionario3.setSalario(500);
         funcionario3.setDataAdimissao("2019-09-23");
         System.out.println("Nome: "+funcionario3.getNome());
         System.out.println("Salário: "+funcionario3.getSalario());
