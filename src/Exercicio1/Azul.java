@@ -7,10 +7,10 @@ public class Azul{
         this.tonalidade=tonalidade;
 
       }
-      public static String getNome(){
+      /*public static String getNome(){
         NOME= String.valueOf(cor);
         return NOME;
-      }
+      }*/
     public int getTonalidade() {
         return tonalidade;}
 
